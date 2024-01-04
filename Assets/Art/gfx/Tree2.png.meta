@@ -402,7 +402,7 @@ TextureImporter:
       213: 21300264
     second: Tree2_132
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -419,9 +419,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -431,8 +434,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -453,10 +456,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -468,6 +476,59 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
@@ -3276,9 +3337,142 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Tree2_0: 21300000
+      Tree2_1: 21300002
+      Tree2_10: 21300020
+      Tree2_100: 21300200
+      Tree2_101: 21300202
+      Tree2_102: 21300204
+      Tree2_103: 21300206
+      Tree2_104: 21300208
+      Tree2_105: 21300210
+      Tree2_106: 21300212
+      Tree2_107: 21300214
+      Tree2_108: 21300216
+      Tree2_109: 21300218
+      Tree2_11: 21300022
+      Tree2_110: 21300220
+      Tree2_111: 21300222
+      Tree2_112: 21300224
+      Tree2_113: 21300226
+      Tree2_114: 21300228
+      Tree2_115: 21300230
+      Tree2_116: 21300232
+      Tree2_117: 21300234
+      Tree2_118: 21300236
+      Tree2_119: 21300238
+      Tree2_12: 21300024
+      Tree2_120: 21300240
+      Tree2_121: 21300242
+      Tree2_122: 21300244
+      Tree2_123: 21300246
+      Tree2_124: 21300248
+      Tree2_125: 21300250
+      Tree2_126: 21300252
+      Tree2_127: 21300254
+      Tree2_128: 21300256
+      Tree2_129: 21300258
+      Tree2_13: 21300026
+      Tree2_130: 21300260
+      Tree2_131: 21300262
+      Tree2_132: 21300264
+      Tree2_14: 21300028
+      Tree2_15: 21300030
+      Tree2_16: 21300032
+      Tree2_17: 21300034
+      Tree2_18: 21300036
+      Tree2_19: 21300038
+      Tree2_2: 21300004
+      Tree2_20: 21300040
+      Tree2_21: 21300042
+      Tree2_22: 21300044
+      Tree2_23: 21300046
+      Tree2_24: 21300048
+      Tree2_25: 21300050
+      Tree2_26: 21300052
+      Tree2_27: 21300054
+      Tree2_28: 21300056
+      Tree2_29: 21300058
+      Tree2_3: 21300006
+      Tree2_30: 21300060
+      Tree2_31: 21300062
+      Tree2_32: 21300064
+      Tree2_33: 21300066
+      Tree2_34: 21300068
+      Tree2_35: 21300070
+      Tree2_36: 21300072
+      Tree2_37: 21300074
+      Tree2_38: 21300076
+      Tree2_39: 21300078
+      Tree2_4: 21300008
+      Tree2_40: 21300080
+      Tree2_41: 21300082
+      Tree2_42: 21300084
+      Tree2_43: 21300086
+      Tree2_44: 21300088
+      Tree2_45: 21300090
+      Tree2_46: 21300092
+      Tree2_47: 21300094
+      Tree2_48: 21300096
+      Tree2_49: 21300098
+      Tree2_5: 21300010
+      Tree2_50: 21300100
+      Tree2_51: 21300102
+      Tree2_52: 21300104
+      Tree2_53: 21300106
+      Tree2_54: 21300108
+      Tree2_55: 21300110
+      Tree2_56: 21300112
+      Tree2_57: 21300114
+      Tree2_58: 21300116
+      Tree2_59: 21300118
+      Tree2_6: 21300012
+      Tree2_60: 21300120
+      Tree2_61: 21300122
+      Tree2_62: 21300124
+      Tree2_63: 21300126
+      Tree2_64: 21300128
+      Tree2_65: 21300130
+      Tree2_66: 21300132
+      Tree2_67: 21300134
+      Tree2_68: 21300136
+      Tree2_69: 21300138
+      Tree2_7: 21300014
+      Tree2_70: 21300140
+      Tree2_71: 21300142
+      Tree2_72: 21300144
+      Tree2_73: 21300146
+      Tree2_74: 21300148
+      Tree2_75: 21300150
+      Tree2_76: 21300152
+      Tree2_77: 21300154
+      Tree2_78: 21300156
+      Tree2_79: 21300158
+      Tree2_8: 21300016
+      Tree2_80: 21300160
+      Tree2_81: 21300162
+      Tree2_82: 21300164
+      Tree2_83: 21300166
+      Tree2_84: 21300168
+      Tree2_85: 21300170
+      Tree2_86: 21300172
+      Tree2_87: 21300174
+      Tree2_88: 21300176
+      Tree2_89: 21300178
+      Tree2_9: 21300018
+      Tree2_90: 21300180
+      Tree2_91: 21300182
+      Tree2_92: 21300184
+      Tree2_93: 21300186
+      Tree2_94: 21300188
+      Tree2_95: 21300190
+      Tree2_96: 21300192
+      Tree2_97: 21300194
+      Tree2_98: 21300196
+      Tree2_99: 21300198
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
